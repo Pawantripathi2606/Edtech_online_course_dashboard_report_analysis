@@ -1,141 +1,121 @@
-📊 EdTech Recorded Lectures Analysis Dashboard
+# 🎓 EdTech Recorded Lectures Analysis Dashboard
 
-🔗 Live Dashboard: View on Power BI
+A dynamic Power BI dashboard designed to analyze online course data across categories, languages, instructors, and learner engagement metrics. This project focuses on uncovering trends in recorded lectures to help EdTech startups optimize their offerings and align with learner demand.
 
-📌 Project Overview
+🔗 Live Dashboard:https://app.powerbi.com/view?r=eyJrIjoiYTI5Y2JkZWEtYzI1MC00MWM0LWE0ZjAtM2E4ZmRlOGM0Y2UzIiwidCI6IjU3ZTI3MGEyLTdkYjctNDdlYS04YWE2LTIwYmFlMjQzN2Q0ZCJ9
 
-This project analyzes recorded lecture data from EdTech platforms to uncover category-wise insights about courses, instructors, skills, and learner engagement.
+## 🎯 Purpose
 
-The goal is to help the EdTech startup expand its offerings strategically by understanding trends in course types, views, languages, subtitles, duration, and instructor ratings.
+The EdTech Dashboard is an analytical Power BI report that provides insights into course types, viewer preferences, instructor ratings, skills demand, and accessibility features.
 
-The analysis was performed using Power BI with a strong emphasis on data cleaning, transformation, and visualization.
+This tool is intended for:
 
-🎯 Problem Statement
+EdTech companies → to expand their content strategy.
 
-The EdTech startup wants to:
+Business analysts & strategists → to study learner behavior and category-wise demand.
 
-Identify popular course categories & subcategories
+Content creators/instructors → to identify growth opportunities.
 
-Analyze viewer engagement patterns (views, language, subtitles, duration)
+Students & learners → to understand trending categories and skills.
 
-Understand demanded skills in today’s job market
+## 🛠 Tech Stack
 
-Highlight top instructors based on ratings
+The dashboard was built using the following tools and technologies:
 
-Investigate how course length, subtitles, and skill diversity affect viewership
+📊 Power BI Desktop – Data visualization & report creation
 
-📈 Dashboard Insights
-1. Distribution of Course Types across Categories
+📂 Power Query – Data cleaning and transformation
 
-Technology & Business → higher share of paid courses.
+🧠 DAX (Data Analysis Expressions) – For calculated measures, averages, and conditional logic
 
-Personal Development & Arts → more free/introductory content.
+📝 Data Modeling – Relationships across categories, subcategories, instructors, skills, and languages
 
-📌 Insight: Helps decide which course type to launch per category.
+📁 File Format – .pbix for development and .png for previews/screenshots 
 
-2. Number of Courses by Category & Sub-category
+##✨ Features & Highlights
+🔹 Business Problem
 
-Highest counts: Technology, Business, Data Science.
+EdTech startups need to understand which course types, categories, and languages learners prefer, as well as what skills are in demand. Raw data alone makes it difficult to identify patterns in engagement and learner behavior.
 
-Niche categories had fewer offerings.
+🔹 Goal of the Dashboard
 
-📌 Insight: Identify underserved areas for new launches.
+To deliver a category-wise, interactive visual tool that:
 
-3. Average Views by Category, Sub-category & Language
+Identifies popular course types & subcategories
 
-Data Science (6.3K avg views) and Technology (4.6K avg views) lead in engagement.
+Measures average views across category, subcategory, and language
 
-English dominates (97% of courses), but regional languages are emerging.
+Reveals most taught & most in-demand skills
 
-📌 Insight: Align content with high-demand categories & preferred languages.
+Highlights top instructors by ratings
 
-4. Most Commonly Taught Skills
+Studies course duration vs engagement and subtitle accessibility impact
 
-Top skills: Python, Machine Learning, SQL, Data Analysis, Communication, Excel, Leadership.
+🔹 Walkthrough of Key Visuals
 
-📌 Insight: These reflect market-relevant skill sets learners demand.
+Course Type Popularity (Bar Chart) – Shows distribution of Free, Paid, Subscription, and Specialization courses.
 
-5. Language Distribution of Courses
+Courses by Category & Sub-Category (Clustered Chart) – Identifies categories with the highest course density.
 
-English (97.3%) is dominant, with smaller shares of Spanish, French, Japanese, Chinese, Portuguese.
+Average Views by Category, Sub-Category, and Language (Column Chart) – Measures learner engagement patterns.
 
-📌 Insight: Regional language content offers growth opportunities.
+Demanding Skills (Word Cloud / Chart) – Highlights the most taught & trending skills like Python, SQL, ML, Communication, Excel.
 
-6. Language Preferences for Top 5 Categories
+Language Distribution (Pie Chart) – Displays dominance of English (97%) with smaller shares of Spanish, French, etc.
 
-Data Science & Computer Science → mostly English.
+Top 5 Categories by Language Preferences (Table/Chart) – Maps category-language engagement alignment.
 
-Business & Personal Development → mix of English + regional.
+Subtitles vs. Views (Scatter Plot) – Correlates subtitle availability with higher average views.
 
-Language Learning → multi-language focus.
+Top Instructors (Static Table) – Lists the best-rated instructors per category/subcategory.
 
-📌 Insight: Tailor language offerings by category.
+Duration vs. Views (Line Chart) – Shows how short, medium, and long-duration courses influence engagement.
 
-7. Subtitles vs. Engagement
+Skill Variety vs. Views (Bar Chart) – Measures the effect of broader skill coverage on viewership.
 
-Courses with multiple subtitle languages attracted significantly higher views.
+🔹 Business Impact & Insights
 
-📌 Insight: Subtitles improve accessibility & global reach.
+Category-Language Fit → Helps localize content for target audiences.
 
-8. Top Instructors by Ratings
+Subtitles → Increase accessibility and attract international learners.
 
-Examples: Haley Axelrod, Jelani Zarif, Kenneth Valkenburg, Laura Kabiri, Philip Currie (all rated 4.9+).
+Course Duration → Shorter, modular content gets more engagement.
 
-📌 Insight: Partner with top-rated instructors to boost credibility & engagement.
+Top Instructors → Can be onboarded for credibility and quality boost.
 
-9. Course Duration vs. Views
+Skill Diversity → Drives higher retention and learner satisfaction.
 
-Short (<10 hrs) → higher completion & engagement.
+##📈 Example Insights
 
-Medium (10–60 hrs/month) → balanced engagement (esp. technical).
+Data Science & Computer Science are top categories with highest average views.
 
-Long (200+ hrs flexible) → lower views except specialized bootcamps.
+English dominates (97%), but regional languages are showing rising popularity.
 
-📌 Insight: Learners prefer shorter, modular courses.
+Python, Machine Learning, SQL, and Communication are the most in-demand skills.
 
-10. Skill Variety Impact on Viewership
+Courses with subtitles in multiple languages consistently achieve more views.
 
-Broader skill coverage = higher engagement (e.g., Data Science with Python, SQL, ML, Tableau).
+Top instructors such as Haley Axelrod, Jelani Zarif, Laura Kabiri hold 4.9+ ratings.
 
-📌 Insight: Offering diverse but related skills increases learner retention.
-
-✅ Final Key Takeaways
-
-Category-language fit and subtitles are major engagement drivers.
-
-Learners prefer short, modular, job-relevant content.
-
-Top instructors should be strategically partnered with.
-
-Expanding into regional languages & niche categories provides growth opportunities.
-
-Skill diversity within a category improves learner retention.
-
-🛠️ Tools & Technologies Used
-
-Power BI – Dashboard creation & visualization
-
-Power Query / DAX – Data cleaning, transformation, and measures
-
-Dataset – Collected from multiple EdTech platforms
+Learners prefer short (<10 hrs) and modular courses, while very long flexible courses see reduced engagement.
 
 📷 Dashboard Preview
 
-(Add screenshots here, e.g., upload into /images and embed like:)
+(Add screenshots to the images/ folder and link them here)
 
-![Dashboard Overview](images/dashboard_overview.png)
-![Instructor Ratings](images/instructor_ratings.png)
+![Dashboard Overview]("EdTech_online_course_dashboard_screenshot.png")  
+  
 
-🚀 Business Impact
+##🚀 Business Value
 
-This analysis empowers the EdTech company to:
+This dashboard empowers EdTech startups to:
 
-Launch the right courses in the right categories
+Expand into high-demand categories strategically.
 
-Optimize language strategy to reach more learners
+Optimize language offerings for learner demand.
 
-Use subtitles to expand accessibility
+Improve accessibility with subtitles.
 
-Recruit highly-rated instructors for credibility
+Partner with top instructors for premium content.
 
-Increase engagement with modular, skill-diverse courses
+Deliver industry-relevant, modular skills-based courses to boost engagement.
